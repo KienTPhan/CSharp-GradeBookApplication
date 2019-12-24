@@ -11,7 +11,5 @@ namespace GradeBook.GradeBooks
         {
             Type = GradeBookType.Ranked;
         }
-
-        public GradeBookType Type { get; set; }
     }
 }
