@@ -57,7 +57,7 @@ namespace GradeBook.UserInterfaces
                 return;
             }
             Console.WriteLine($"Created gradebook {name}.");
-            GradeBookUserInterface.CommandLoop(gradeBook);
+            //GradeBookUserInterface.CommandLoop(gradeBook);
         }
 
         public static void LoadCommand(string command)
